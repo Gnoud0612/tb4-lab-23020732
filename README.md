@@ -1,12 +1,11 @@
 # Bài thực hành 04 — TurtleBot 4
 
-Ubuntu 22.04, ROS 2 Humble Desktop, Gazebo Fortress. Máy cần có kho APT ROS 2/Gazebo và giao diện để mở Gazebo, RViz2. Thay `URL_REPOSITORY` bằng URL GitHub của bài.
 
 ## 1. Clone, cài dependency và build
 
 ```bash
 mkdir -p ~/workspaces
-git clone URL_REPOSITORY ~/workspaces/workspace
+git clone https://github.com/Gnoud0612/tb4-lab-23020732.git ~/workspaces/workspace
 cd ~/workspaces/workspace
 
 sudo apt update
